@@ -14,6 +14,7 @@ builder.Services.AddControllers();
 
 Env.Load();
 
+
 var dbUser = Environment.GetEnvironmentVariable("DB_USER");
 var dbPassword = Environment.GetEnvironmentVariable("DB_PASSWORD");
 var dbPort = Environment.GetEnvironmentVariable("DB_PORT");

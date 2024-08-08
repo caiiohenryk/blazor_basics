@@ -24,5 +24,11 @@ namespace blazor_studies.Models
             Name = name;
             GameCategory = gameCategory;
         }
+
+        public void Update(string name, Category gameCategory) {
+            Name = name;
+            GameCategory = gameCategory;
+        }
+
     }
 }
